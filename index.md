@@ -11,13 +11,19 @@ layout: default
 *   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
 *   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
 
-# [](#header-1)About
+# [](#header-2)About
 
 Smartphones and apps that run on them are becoming increasingly prevalent. There is a growing need for software-quality tools in all stages of an app's life-cycle, including development, testing, auditing, and deployment. This project investigates algorithms and systems for effectively analyzing smartphone apps.
 
 Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.
 
+# [](#header-2)Papers
 
+*   [Dynodroid: An Input Generation System for Android Apps](http://www.cis.upenn.edu/~mhnaik/pubs/fse13.pdf)
+     Aravind Machiry, Rohan Tahiliani, Mayur Naik.
+     FSE'13: ACM Symposium on Foundations of Software Engineering.
+    **Distinguished Artifact Award** 
+*   [Automated Concolic Testing of Smartphone Apps](http://www.cis.upenn.edu/~mhnaik/pubs/fse12.pdf)
 
 # [](#header-1)Header 1
 
