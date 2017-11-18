@@ -13,10 +13,11 @@
 
     <header>
       <div class="container">
+        <h2>
         <img src="/assets/images/droid_logo.png" 
-			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+			class='hidden-xs hidden-sm' style='vertical-align: center; ' />{{ site.title | default: site.github.repository_name }}
+		<h2>
+        <h3>{{ site.description | default: site.github.project_tagline }}</h3>
 
         <section id="downloads">
           {% if site.show_downloads %}
