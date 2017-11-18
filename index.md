@@ -2,13 +2,22 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+#### [](#header-4)News
 
-[Link to another page](another-page).
+*   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
+*   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
+*   Jun'13: [source code](https://github.com/dynodroid/dynodroid) and [evaluation data](http://pag-www.gtisc.gatech.edu/dynodroid/data) of Dynodroid released
+*   Jun'13: [paper](http://www.cis.upenn.edu/~mhnaik/pubs/fse13.pdf) on Dynodroid to appear at [FSE'13](http://esec-fse.inf.ethz.ch)
+*   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
+*   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
 
-There should be whitespace between paragraphs.
+# [](#header-1)About
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Smartphones and apps that run on them are becoming increasingly prevalent. There is a growing need for software-quality tools in all stages of an app's life-cycle, including development, testing, auditing, and deployment. This project investigates algorithms and systems for effectively analyzing smartphone apps.
+
+Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.
+
+
 
 # [](#header-1)Header 1
 
