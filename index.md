@@ -27,6 +27,14 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
      Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold.     
      FSE'12: ACM Symposium on Foundations of Software Engineering.
 
+# [](#header-2)People
+
+*   [Saswat Anand](http://cs.stanford.edu/people/saswat/)
+*   [Aravind Machiry](https://machiry.github.io/)
+*   [Mayur Naik](http://www.cis.upenn.edu/~mhnaik/naik)
+*   [Rohan Tahiliani](https://br.linkedin.com/in/rohan-tahiliani-26753537)
+*   [Hongseok Yang](http://www.comlab.ox.ac.uk/people/hongseok.yang/Public/Home.html)
+
 # [](#header-1)Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
