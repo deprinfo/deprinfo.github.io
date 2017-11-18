@@ -27,6 +27,12 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
      Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold.     
      FSE'12: ACM Symposium on Foundations of Software Engineering.
 
+# [](#header-2)Papers
+
+*   [Dynodroid source code and VHD](https://github.com/dynodroid/dynodroid)
+*   [Dynodroid evaluation data](http://www.seas.upenn.edu/~mhnaik/dynodroid/data/#results) (FSE'13)
+*   [Acteve source code](https://code.google.com/p/acteve/source/checkout)
+
 # [](#header-2)People
 
 *   [Saswat Anand](http://cs.stanford.edu/people/saswat/)
@@ -35,114 +41,11 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 *   [Rohan Tahiliani](https://br.linkedin.com/in/rohan-tahiliani-26753537)
 *   [Hongseok Yang](http://www.comlab.ox.ac.uk/people/hongseok.yang/Public/Home.html)
 
-# [](#header-1)Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## [](#header-2)Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### [](#header-3)Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### [](#header-4)Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### [](#header-5)Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### [](#header-6)Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+# [](#header-2)Questions
+For questions about Dynodroid, send email to machiry{at}cs.ucsb.edu or <a href="http://groups.google.com/group/dynodroid/">browse the archives</a>. Posting does not require membership but posts by non-members may be moderated to avoid spamming group members.
 
 
-### Definition lists can be used with HTML syntax.
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+# [](#header-3)Acknowledgments
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+This research is funded in part by DARPA (contract #FA8750-12-2-0020), NSF (award #1253867), and gifts from Google and Microsoft.
