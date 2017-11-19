@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### [](#header-2)News
+# [](#news)News
 
 *   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
 *   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
@@ -11,7 +11,7 @@ layout: default
 *   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
 *   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
 
-# [](#header-2)About
+# [](#about)About
 
 Smartphones and apps that run on them are becoming increasingly prevalent. There is a growing need for software-quality tools in all stages of an app's life-cycle, including development, testing, auditing, and deployment. This project investigates algorithms and systems for effectively analyzing smartphone apps.
 
@@ -23,7 +23,7 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 </iframe>
 		
 
-# [](#header-2)Papers
+# [](#papers)Papers
 
 *   [Dynodroid: An Input Generation System for Android Apps](./assets/files/fse13.pdf)
      Aravind Machiry, Rohan Tahiliani, Mayur Naik.     
@@ -38,13 +38,13 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
      
     [Source Code](https://code.google.com/p/acteve/source/checkout), [Slides](./assets/files/fse12_talk.pptx), [Full-Version](./assets/files/fse12_full.pdf)
 
-# [](#header-2)Software and Data
+# [](#softwareanddata)Software and Data
 
 *   [Dynodroid source code and VHD](https://github.com/dynodroid/dynodroid)
 *   [Dynodroid evaluation data](./Dynodroid Evaluation Data_.html) (FSE'13)
 *   [Acteve source code](https://code.google.com/p/acteve/source/checkout)
 
-# [](#header-2)People
+# [](#people)People
 
 *   [Saswat Anand](http://cs.stanford.edu/people/saswat/)
 *   [Aravind Machiry](https://machiry.github.io/)
@@ -52,11 +52,11 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 *   [Rohan Tahiliani](https://br.linkedin.com/in/rohan-tahiliani-26753537)
 *   [Hongseok Yang](http://www.comlab.ox.ac.uk/people/hongseok.yang/Public/Home.html)
 
-# [](#header-2)Questions
+# [](#questions)Questions
 For questions about Dynodroid, send email to machiry{at}cs.ucsb.edu or <a href="http://groups.google.com/group/dynodroid/">browse the archives</a>. Posting does not require membership but posts by non-members may be moderated to avoid spamming group members.
 
 
 
-# [](#header-3)Acknowledgments
+# [](#acks)Acknowledgments
 
 This research is funded in part by DARPA (contract #FA8750-12-2-0020), NSF (award #1253867), and gifts from Google and Microsoft.
