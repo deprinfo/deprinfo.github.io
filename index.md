@@ -29,12 +29,13 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
      Aravind Machiry, Rohan Tahiliani, Mayur Naik.     
      FSE'13: ACM Symposium on Foundations of Software Engineering.     
     **Distinguished Artifact Award** 
+    [Source Code](https://github.com/dynodroid/dynodroid)
 *   [Automated Concolic Testing of Smartphone Apps](./assets/files/fse12.pdf)
      Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold.     
      FSE'12: ACM Symposium on Foundations of Software Engineering.
-     [slides](./assets/files/fse12_talk.pptx), [full-version](./assets/files/fse12_full.pdf)
+    [Source Code](https://code.google.com/p/acteve/source/checkout), [Slides](./assets/files/fse12_talk.pptx), [Full-Version](./assets/files/fse12_full.pdf)
 
-# [](#header-2)Papers
+# [](#header-2)Software and Data
 
 *   [Dynodroid source code and VHD](https://github.com/dynodroid/dynodroid)
 *   [Dynodroid evaluation data](./Dynodroid Evaluation Data_.html) (FSE'13)
