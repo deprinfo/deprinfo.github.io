@@ -17,6 +17,12 @@ Smartphones and apps that run on them are becoming increasingly prevalent. There
 
 Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.
 
+<iframe title="Dynodroid Demo" class="youtube-player" type="text/html" 
+			src="//www.youtube.com/embed/5LSrWRhz0Do?rel=0&amp;wmode=opaque" frameborder="0" 
+			allowfullscreen="true" width="480" height="270">
+</iframe>
+		
+
 # [](#header-2)Papers
 
 *   [Dynodroid: An Input Generation System for Android Apps](http://www.cis.upenn.edu/~mhnaik/pubs/fse13.pdf)
