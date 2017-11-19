@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### [](#header-4)News
+#### [](#header-2)News
 
 *   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
 *   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
