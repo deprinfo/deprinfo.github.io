@@ -7,7 +7,7 @@ layout: default
 *   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
 *   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
 *   Jun'13: [source code](https://github.com/dynodroid/dynodroid) and [evaluation data](http://pag-www.gtisc.gatech.edu/dynodroid/data) of Dynodroid released
-*   Jun'13: [paper](http://www.cis.upenn.edu/~mhnaik/pubs/fse13.pdf) on Dynodroid to appear at [FSE'13](http://esec-fse.inf.ethz.ch)
+*   Jun'13: [paper](./assets/files/fse13.pdf) on Dynodroid to appear at [FSE'13](http://esec-fse.inf.ethz.ch)
 *   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
 *   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
 
@@ -25,13 +25,14 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 
 # [](#header-2)Papers
 
-*   [Dynodroid: An Input Generation System for Android Apps](http://www.cis.upenn.edu/~mhnaik/pubs/fse13.pdf)
+*   [Dynodroid: An Input Generation System for Android Apps](./assets/files/fse13.pdf)
      Aravind Machiry, Rohan Tahiliani, Mayur Naik.     
      FSE'13: ACM Symposium on Foundations of Software Engineering.     
     **Distinguished Artifact Award** 
-*   [Automated Concolic Testing of Smartphone Apps](http://www.cis.upenn.edu/~mhnaik/pubs/fse12.pdf)
+*   [Automated Concolic Testing of Smartphone Apps](./assets/files/fse12.pdf)
      Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold.     
      FSE'12: ACM Symposium on Foundations of Software Engineering.
+     [slides](./assets/files/fse12_talk.pptx), [full-version](./assets/files/fse12_full.pdf)
 
 # [](#header-2)Papers
 
