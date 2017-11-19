@@ -6,7 +6,7 @@ layout: default
 
 *   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
 *   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
-*   Jun'13: [source code](https://github.com/dynodroid/dynodroid) and [evaluation data](http://pag-www.gtisc.gatech.edu/dynodroid/data) of Dynodroid released
+*   Jun'13: [source code](https://github.com/dynodroid/dynodroid) and [evaluation data](./Dynodroid Evaluation Data_.html) of Dynodroid released
 *   Jun'13: [paper](./assets/files/fse13.pdf) on Dynodroid to appear at [FSE'13](http://esec-fse.inf.ethz.ch)
 *   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
 *   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
