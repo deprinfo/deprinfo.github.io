@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0117)https://docs.google.com/spreadsheets/d/1oUOvE8QbZ1ZOqew4I6V_t5VNL_hNdkL-Q3429-015sc/pubhtml/sheet?headers=false&gid=8 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Convergence Results</title><meta name="viewport" content="target-densitydpi=device-dpi,user-scalable=1,minimum-scale=1,maximum-scale=2.5,initial-scale=1,width=device-width"><link href="./2447500187-waffle_k_ltr.css" type="text/css" rel="stylesheet"><style type="text/css" nonce="8nly97TarlM40UmbWQgJvz4Oh6A">
+        html { overflow: visible; }
+        #sheets-viewport { overflow: auto; }
+        #sheets-viewport.widget-viewport { overflow: hidden; }
+        .grid-container { overflow: visible; background: white;}
+        .grid-table-container { overflow: visible; }
+        #top-bar {
+          background: url("//ssl.gstatic.com/docs/spreadsheets/publishheader.png") repeat-x bottom;
+          margin: 0;
+          overflow: hidden;
+        }
+        #top-bar {
+          border-bottom: 1px solid #ccc;
+          padding: 6px 6px 0;
+        }
+        #doc-title { padding-bottom: 5px; }
+        #doc-title .name { font-size: 15px; }
+        #sheet-menu {
+          font-size: 13px;
+          margin: 6px 0 0;
+          padding: 0 0 5px;
+        }
+        #sheet-menu li {
+          display: inline;
+          list-style-type: none;
+          margin: 0;
+          padding: 5px 8px;
+        }
+        #sheet-menu li.active {
+          background-color: #fff;
+          font-weight: bold;
+          border: 1px solid #999;
+        }
+        #top-bar #sheet-menu li.active {
+          border-bottom: 0;
+        }
+        #sheet-menu a, #sheet-menu a:visited { color: #07c; }
+        #footer {
+          background: #f0f0f0;
+          border-top: 1px #ccc solid;
+          border-bottom: 1px #ccc solid;
+          font-size: 13;
+          padding: 10px 10px;
+        }
+        .dash {
+          padding: 0 6px;
+        }
+        .ritz .waffle a { color: inherit; }.ritz .waffle .s1{background-color:#ffffff;text-align:left;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s0{background-color:#ffffff;text-align:center;font-weight:bold;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:middle;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}.ritz .waffle .s2{background-color:#ffffff;text-align:right;color:#000000;font-family:'Arial';font-size:10pt;vertical-align:bottom;white-space:normal;overflow:hidden;direction:ltr;padding:0px 3px 0px 3px;}</style><script type="text/javascript" nonce="8nly97TarlM40UmbWQgJvz4Oh6A">
+        var activeSheetId;
+
+        function switchToSheet(id) {
+          if (document.getElementById('sheet-menu')) {
+            document.getElementById('sheet-button-' + activeSheetId)
+                .className = '';
+            document.getElementById('sheet-button-' + id).className = 'active';
+          }
+
+          document.getElementById(activeSheetId).style.display = 'none';
+          document.getElementById(id).style.display = '';
+          activeSheetId = id;
+
+          // posObjs() is defined in embeddedObjectJs (see EmbeddedObjectHtmlBuilder.java)
+          posObjs();
+          return false;
+        }
+        
+        function init() {
+        var optPageSwitcher;
+        
+        function resize() {
+          var optMobileWebHeader = document.getElementById('docs-ml-header-id');
+          var optTopBar = document.getElementById('top-bar');
+          var optFooter = document.getElementById('footer');
+          var sheetsViewport = document.getElementById('sheets-viewport');
+
+          if (optMobileWebHeader) {
+            sheetsViewport.style.marginTop = optMobileWebHeader.offsetHeight +
+                (optTopBar ? optTopBar.offsetHeight : 0) + 'px';
+          }
+          var adjustedHeight = window.innerHeight -
+              (optTopBar ? optTopBar.offsetHeight : 0) -
+              (optFooter ? optFooter.offsetHeight : 0);
+          var adjustedWidth = window.innerWidth;
+          sheetsViewport.style.width = (adjustedWidth + 'px');
+          sheetsViewport.style.height = (adjustedHeight + 'px');
+          if (optPageSwitcher) {
+            optPageSwitcher.resize(adjustedWidth, adjustedHeight);
+          }
+        }
+        resize();
+        window.onresize = resize;
+        }
+        </script><style></style><script nonce="8nly97TarlM40UmbWQgJvz4Oh6A">_docs_flag_initialData={"docs-mwid":true,"docs-smheo":true,"info_params":{"token":"AC4w5VgNiPc5FtHcvmu8qtRoyAaWq0d9kg:1511050080383","includes_info_params":true},"ilcm":{"eui":"ADFN-csTz_gBEbgFkw5Hh_VMrS1x70TtziQzObwQoIau0CeNWMhL_SWlNiSVysyHE72Yarsmv8wz","je":1,"sstu":1511050080413000,"si":"CMjKn5qsydcCFRHrygod-gMBrg","ei":[5702023,5701352,5701719,5700105,5700680,5702011,5700019,5700057,5701935,5701911,5700138,5701172,5701731,5701820,5701433,5702187,5701610,5701378,5700208,5701300,5701804,5700567,5701844,5701594,5701014,5700891,5701180,5701067,5700592,5700808,5700130,5700937,5700127,5700180,5700016,5701602,5702708,5700796,5701022,5701516,5700684,5701500,5700933,5700250,5700908,5701889,5702334,5700551,5701127,5700446,5700668,5700258,5701711,5701870,5700998,5701536,5701356,5700535,5700608,5700588,5700990,5700286,5700994,5701200,5700876,5702123,5700358,5701304,5700788,5700213,5702027,5701075,5702301,5700410,5700362,5700028,5700579,5700333,5700100,5702195,5700650,5700378,5701533,5701319,5700042,5700266,5701915,5700752,5700982,5700559,5701232,5700103,5701220,5701753,5701695,5701445,5700658,5700422,5701687,5700962,5701626,5700035,5700547,5701995,5701853,5702654,5702556,5700716,5700386]},"drive_url":"//drive.google.com?authuser\u003d0\u0026usp\u003dsheets_web","docs-sup":"/spreadsheets"}; _docs_flag_cek= null ;</script><script nonce="8nly97TarlM40UmbWQgJvz4Oh6A">document.addEventListener('DOMContentLoaded', init);</script></head><body marginwidth="0" marginheight="0"><div id="sheets-viewport" style="width: 1000px; height: 245px;"><div id="8" style="position: relative;" dir="ltr"><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr header-shim row-header-shim"></th><th id="8C0" style="width:300px" class="header-shim"></th><th id="8C1" style="width:120px" class="header-shim"></th><th id="8C2" style="width:130px" class="header-shim"></th></tr></thead><tbody><tr style="height:16px;"><th id="8R0" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">1</div></th><td class="s0" dir="ltr">App Name</td><td class="s0" dir="ltr">Total Coverage</td><td class="s0" dir="ltr">Stabilization Point (multiply it by 100)</td></tr><tr style="height:16px;"><th id="8R1" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">2</div></th><td class="s1" dir="ltr">a2dp.Vol_93_src</td><td class="s2" dir="ltr">19.64</td><td class="s2" dir="ltr">3</td></tr><tr style="height:16px;"><th id="8R2" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">3</div></th><td class="s1" dir="ltr">aarddict.android_13_src</td><td class="s2" dir="ltr">62.88</td><td class="s2" dir="ltr">10</td></tr><tr style="height:16px;"><th id="8R3" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">4</div></th><td class="s1" dir="ltr">aLogCat</td><td class="s2" dir="ltr">48.93</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R4" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">5</div></th><td class="s1" dir="ltr">Amazed</td><td class="s2" dir="ltr">68.14</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R5" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">6</div></th><td class="s1" dir="ltr">AnyCut</td><td class="s2" dir="ltr">77.11</td><td class="s2" dir="ltr">3</td></tr><tr style="height:16px;"><th id="8R6" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">7</div></th><td class="s1" dir="ltr">baterrydog</td><td class="s2" dir="ltr">16.95</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R7" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">8</div></th><td class="s1" dir="ltr">be.ppareit.swiftp_free_21_src</td><td class="s2" dir="ltr">11.65</td><td class="s2" dir="ltr">8</td></tr><tr style="height:16px;"><th id="8R8" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">9</div></th><td class="s1" dir="ltr">caldwell.ben.bites_4_src</td><td class="s2" dir="ltr">10.09</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R9" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">10</div></th><td class="s1" dir="ltr">ch.blinkenlights.battery_1335983644_src</td><td class="s2" dir="ltr">81.61</td><td class="s2" dir="ltr">3</td></tr><tr style="height:16px;"><th id="8R10" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">11</div></th><td class="s1" dir="ltr">com.addi_44_src</td><td class="s2" dir="ltr">24.49</td><td class="s2" dir="ltr">5</td></tr><tr style="height:16px;"><th id="8R11" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">12</div></th><td class="s1" dir="ltr">com.angrydoughnuts.android.alarmclock_8_src</td><td class="s2" dir="ltr">51.95</td><td class="s2" dir="ltr">8</td></tr><tr style="height:16px;"><th id="8R12" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">13</div></th><td class="s1" dir="ltr">com.chmod0.manpages_3_src</td><td class="s2" dir="ltr">74.6</td><td class="s2" dir="ltr">17</td></tr><tr style="height:16px;"><th id="8R13" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">14</div></th><td class="s1" dir="ltr">com.everysoft.autoanswer_6_src</td><td class="s2" dir="ltr">77.34</td><td class="s2" dir="ltr">13</td></tr><tr style="height:16px;"><th id="8R14" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">15</div></th><td class="s1" dir="ltr">com.gluegadget.hndroid_3_src</td><td class="s2" dir="ltr">47.41</td><td class="s2" dir="ltr">5</td></tr><tr style="height:16px;"><th id="8R15" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">16</div></th><td class="s1" dir="ltr">com.hectorone.multismssender_13_src</td><td class="s2" dir="ltr">5.54</td><td class="s2" dir="ltr">1</td></tr><tr style="height:16px;"><th id="8R16" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">17</div></th><td class="s1" dir="ltr">com.irahul.worldclock_2_src</td><td class="s2" dir="ltr">96.82</td><td class="s2" dir="ltr">7</td></tr><tr style="height:16px;"><th id="8R17" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">18</div></th><td class="s1" dir="ltr">com.kvance.Nectroid_11_src</td><td class="s2" dir="ltr">33.37</td><td class="s2" dir="ltr">11</td></tr><tr style="height:16px;"><th id="8R18" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">19</div></th><td class="s1" dir="ltr">com.morphoss.acal_60_src</td><td class="s2" dir="ltr">23.36</td><td class="s2" dir="ltr">7</td></tr><tr style="height:16px;"><th id="8R19" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">20</div></th><td class="s1" dir="ltr">com.teleca.jamendo_38_src</td><td class="s2" dir="ltr">34.9</td><td class="s2" dir="ltr">16</td></tr><tr style="height:16px;"><th id="8R20" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">21</div></th><td class="s1" dir="ltr">com.templaro.opsiz.aka_10_src</td><td class="s2" dir="ltr">59.17</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R21" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">22</div></th><td class="s1" dir="ltr">com.tum.yahtzee_1_src</td><td class="s2" dir="ltr">58.37</td><td class="s2" dir="ltr">7</td></tr><tr style="height:16px;"><th id="8R22" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">23</div></th><td class="s1" dir="ltr">com.zoffcc.applications.aagtl_31_src</td><td class="s2" dir="ltr">32.52</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R23" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">24</div></th><td class="s1" dir="ltr">de.homac.Mirrored_9_src</td><td class="s2" dir="ltr">51.41</td><td class="s2" dir="ltr">3</td></tr><tr style="height:16px;"><th id="8R24" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">25</div></th><td class="s1" dir="ltr">dialer2</td><td class="s2" dir="ltr">53.27</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R25" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">26</div></th><td class="s1" dir="ltr">DivideAndConquer</td><td class="s2" dir="ltr">66.46</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R26" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">27</div></th><td class="s1" dir="ltr">fileexplorer</td><td class="s2" dir="ltr">63.64</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R27" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">28</div></th><td class="s1" dir="ltr">gestures</td><td class="s2" dir="ltr">32.14</td><td class="s2" dir="ltr">1</td></tr><tr style="height:16px;"><th id="8R28" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">29</div></th><td class="s1" dir="ltr">hotdeath</td><td class="s2" dir="ltr">1.73</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R29" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">30</div></th><td class="s1" dir="ltr">hu.vsza.adsdroid_2_src</td><td class="s2" dir="ltr">92.24</td><td class="s2" dir="ltr">6</td></tr><tr style="height:16px;"><th id="8R30" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">31</div></th><td class="s1" dir="ltr">i4nc4mp.myLock_28_src</td><td class="s2" dir="ltr">37.13</td><td class="s2" dir="ltr">4</td></tr><tr style="height:16px;"><th id="8R31" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">32</div></th><td class="s1" dir="ltr">in.shick.lockpatterngenerator_6_src</td><td class="s2" dir="ltr">68.68</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R32" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">33</div></th><td class="s1" dir="ltr">jp.sblo.pandora.aGrep_4_src</td><td class="s2" dir="ltr">38.89</td><td class="s2" dir="ltr">8</td></tr><tr style="height:16px;"><th id="8R33" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">34</div></th><td class="s1" dir="ltr">k9mail</td><td class="s2" dir="ltr">5.71</td><td class="s2" dir="ltr">9</td></tr><tr style="height:16px;"><th id="8R34" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">35</div></th><td class="s1" dir="ltr">LolcatBuilder</td><td class="s2" dir="ltr">18.97</td><td class="s2" dir="ltr">3</td></tr><tr style="height:16px;"><th id="8R35" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">36</div></th><td class="s1" dir="ltr">MunchLife</td><td class="s2" dir="ltr">66.27</td><td class="s2" dir="ltr">7</td></tr><tr style="height:16px;"><th id="8R36" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">37</div></th><td class="s1" dir="ltr">netcounter</td><td class="s2" dir="ltr">69.46</td><td class="s2" dir="ltr">16</td></tr><tr style="height:16px;"><th id="8R37" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">38</div></th><td class="s1" dir="ltr">org.beide.bomber_1_src</td><td class="s2" dir="ltr">52.23</td><td class="s2" dir="ltr">1</td></tr><tr style="height:16px;"><th id="8R38" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">39</div></th><td class="s1" dir="ltr">org.jfedor.frozenbubble_13_src</td><td class="s2" dir="ltr">48.87</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R39" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">40</div></th><td class="s1" dir="ltr">org.liberty.android.fantastischmemo_135_src</td><td class="s2" dir="ltr">11.41</td><td class="s2" dir="ltr">15</td></tr><tr style="height:16px;"><th id="8R40" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">41</div></th><td class="s1" dir="ltr">org.scoutant.blokish_13_src</td><td class="s2" dir="ltr">37.13</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R41" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">42</div></th><td class="s1" dir="ltr">org.smerty.zooborns_14_src</td><td class="s2" dir="ltr">65.34</td><td class="s2" dir="ltr">8</td></tr><tr style="height:16px;"><th id="8R42" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">43</div></th><td class="s1" dir="ltr">org.waxworlds.edam.importcontacts_2_src</td><td class="s2" dir="ltr">8</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R43" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">44</div></th><td class="s1" dir="ltr">org.wikipedia_17_src</td><td class="s2" dir="ltr">21.79</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R44" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">45</div></th><td class="s1" dir="ltr">PasswordMakerProForAndroid</td><td class="s2" dir="ltr">51.94</td><td class="s2" dir="ltr">11</td></tr><tr style="height:16px;"><th id="8R45" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">46</div></th><td class="s1" dir="ltr">passwordmanager</td><td class="s2" dir="ltr">6.45</td><td class="s2" dir="ltr">5</td></tr><tr style="height:16px;"><th id="8R46" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">47</div></th><td class="s1" dir="ltr">Photostream</td><td class="s2" dir="ltr">58.42</td><td class="s2" dir="ltr">9</td></tr><tr style="height:16px;"><th id="8R47" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">48</div></th><td class="s1" dir="ltr">QuickSettings</td><td class="s2" dir="ltr">33.22</td><td class="s2" dir="ltr">4</td></tr><tr style="height:16px;"><th id="8R48" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">49</div></th><td class="s1" dir="ltr">RandomMusicPlayer</td><td class="s2" dir="ltr">89.26</td><td class="s2" dir="ltr">5</td></tr><tr style="height:16px;"><th id="8R49" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">50</div></th><td class="s1" dir="ltr">soundboard</td><td class="s2" dir="ltr">100</td><td class="s2" dir="ltr">2</td></tr><tr style="height:16px;"><th id="8R50" style="height: 16px;" class="row-headers-background row-header-shim"><div class="row-header-wrapper" style="line-height: 16px;">51</div></th><td class="s1" dir="ltr">Triangle</td><td class="s2" dir="ltr">74.32</td><td class="s2" dir="ltr">1</td></tr></tbody></table></div></div></div>
+<script type="text/javascript" nonce="8nly97TarlM40UmbWQgJvz4Oh6A">
+function posObj(sheet, id, row, col, x, y) {
+  var rtl = false;
+  var sheetElement = document.getElementById(sheet);
+  if (!sheetElement) {
+    sheetElement = document.getElementById(sheet + '-grid-container');
+  }
+  if (sheetElement) {
+    rtl = sheetElement.getAttribute('dir') == 'rtl';
+  }
+  var r = document.getElementById(sheet+'R'+row);
+  var c = document.getElementById(sheet+'C'+col);
+  if (r && c) {
+    var objElement = document.getElementById(id);
+    var s = objElement.style;
+    var t = y;
+    while (r && r != sheetElement) {
+      t += r.offsetTop;
+      r = r.offsetParent;
+    }
+    var offsetX = x;
+    while (c && c != sheetElement) {
+      offsetX += c.offsetLeft;
+      c = c.offsetParent;
+    }
+    if (rtl) {
+      offsetX -= objElement.offsetWidth;
+    }
+    s.left = offsetX + 'px';
+    s.top = t + 'px';
+    s.display = 'block';
+    s.border = '1px solid #000000';
+  }
+};
+function posObjs() {
+};
+posObjs();</script>
+<script type="text/javascript" nonce="8nly97TarlM40UmbWQgJvz4Oh6A">activeSheetId = '8'; switchToSheet('8');</script></body></html>

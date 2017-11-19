@@ -36,7 +36,7 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 # [](#header-2)Papers
 
 *   [Dynodroid source code and VHD](https://github.com/dynodroid/dynodroid)
-*   [Dynodroid evaluation data](http://www.seas.upenn.edu/~mhnaik/dynodroid/data/#results) (FSE'13)
+*   [Dynodroid evaluation data](./Dynodroid Evaluation Data_.html) (FSE'13)
 *   [Acteve source code](https://code.google.com/p/acteve/source/checkout)
 
 # [](#header-2)People

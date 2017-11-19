@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0059)http://www.seas.upenn.edu/~mhnaik/dynodroid/data/index.html -->
+<html lang="en" class="gr__seas_upenn_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Dynodroid Evaluation Data&gt;</title>
+<link href="./Dynodroid Evaluation Data__files/menu.css" rel="stylesheet" type="text/css" media="screen">
+<script type="text/javascript" language="javascript" src="./Dynodroid Evaluation Data__files/easytabs.js"></script>
+</head>
+<body data-gr-c-s-loaded="true">
+<center>
+<table><tbody><tr>
+  <td><img src="./Dynodroid Evaluation Data__files/droid_logo.png" height="150" width="150"></td>
+  <td><h1>Dynodroid Evaluation Data</h1></td>
+  </tr>
+  <tr><td></td>
+  <td>
+  </td></tr>
+</tbody></table>
+</center>
+
+<p><a id="intro">
+</a></p><table width="100%" cellpadding="4"><tbody><tr><td bgcolor="#ccccff"><font face="Cambria"><center><b>Introduction</b></center></font></td></tr></tbody></table><p><a id="intro">
+
+We compared the performance of Dynodroid on 50 Android apps with the following two state-of-the-art approaches:
+</a></p><ul><a id="intro">
+</a><li><a id="intro">The </a><a href="http://developer.android.com/tools/help/monkey.html">Monkey fuzz testing tool</a> provided in the Android platform; and
+</li><li>Manual testing conducted in a user study involving ten expert users.</li>
+</ul>
+This page describes the data that was used in and produced by the above evaluation.
+<p><a id="results">
+</a></p><table width="100%" cellpadding="4"><tbody><tr><td bgcolor="#ccccff"><font face="Cambria"><center><b>Evaluation Results</b></center></font></td></tr></tbody></table><p><a id="results">
+
+We randomly chose the 50 apps in our study from the Android open-source apps repository </a><a href="http://f-droid.org/">F-Droid</a>.  Their distribution by category is as below:
+</p><p>
+</p><center><img width="400px" src="./Dynodroid Evaluation Data__files/benches.png"></center>
+<p>
+We evaluated five input generation approaches on the 50 apps:
+</p><ul>
+<li>Dynodroid using each of three different event selection strategies (Frequency, UniformRandom, BiasedRandom);</li>
+<li>The <a href="http://developer.android.com/tools/help/monkey.html%22">Monkey fuzz testing tool</a> provided in the Android platform; and
+</li><li>Manual testing conducted in a user study involving ten expert users.</li>
+</ul>
+<h3>Code Coverage</h3>
+The results of our code coverage study for the 50 apps are summarized in the two plots below. Each point on the X axis of the below plots denotes the same app.
+<p>
+</p><center><img width="800px" src="./Dynodroid Evaluation Data__files/tool_monkey.png"></center><br>
+<center><img width="800px" src="./Dynodroid Evaluation Data__files/tool_human.png"></center><br>
+The below spreadsheet provides detailed data on coverage numbers.
+<p>
+</p><center><iframe width="1000" height="300" frameborder="0" src="./Dynodroid Evaluation Data__files/pub.html"></iframe></center>
+<h3>Convergence</h3>
+The below figure compares the minimum number of events that were needed by each automated approach--Monkey, 
+and Dynodroid using each of the three selection strategies--to achieve peak code coverage for each of the 50 apps.
+<p>
+</p><center><img width="800px" src="./Dynodroid Evaluation Data__files/converge.png"></center><br>
+The below spreadsheet provides detailed data on convergence trends.
+<p>
+</p><center><iframe width="1000" height="300" frameborder="0" src="./Dynodroid Evaluation Data__files/pub(1).html"></iframe></center>
+
+
+
+</body></html>
