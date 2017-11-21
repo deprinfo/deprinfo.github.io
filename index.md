@@ -53,7 +53,7 @@ Dynodroid is a system for automatically generating relevant inputs to Android ap
 *   [Hongseok Yang](http://www.comlab.ox.ac.uk/people/hongseok.yang/Public/Home.html)
 
 # [](#questions)Questions
-For questions about Dynodroid, send email to machiry{at}cs.ucsb.edu or <a href="http://groups.google.com/group/dynodroid/">browse the archives</a>. Posting does not require membership but posts by non-members may be moderated to avoid spamming group members.
+For questions about Dynodroid, send email to dynodroid{at}googlegroups.com or <a href="http://groups.google.com/group/dynodroid/">browse the archives</a>. Posting does not require membership but posts by non-members may be moderated to avoid spamming group members.
 
 
 
