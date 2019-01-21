@@ -2,61 +2,43 @@
 layout: default
 ---
 
-# [](#news)News
+It is quite common nowadays to see a website asking you to create an account to use their service. For example Spotify, Pandora or less famous ones like https://iconsflow.com.  Most of these websites/web services allow you to log in through facebook/google so that it is easy for you and you need not remember yet another password. This is amazing, we always prefer this form of login/signup.
 
-*   Nov'13: [invited talk](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/Mayur_cascon13.pdf) on Dynodroid at [CASCON'13 workshop](http://sailhome.cs.queensu.ca/~mei/MobileAppChallenges/)
-*   Aug'13: Dynodroid received a distinguished artifact award at [FSE'13](http://esec-fse.inf.ethz.ch)!
-*   Jun'13: [source code](https://github.com/dynodroid/dynodroid) and [evaluation data](./Dynodroid Evaluation Data_.html) of Dynodroid released
-*   Jun'13: [paper](./assets/files/fse13.pdf) on Dynodroid to appear at [FSE'13](http://esec-fse.inf.ethz.ch)
-*   Mar'13: [source code](http://acteve.googlecode.com) of Acteve (symbolic execution engine for Android apps) released
-*   Jan'12: [talk](http://www.cis.upenn.edu/~mhnaik/pubs/naik_msr_jan2012.pptx) on Acteve at Microsoft Research India
+Similar to us, If you also use facebook or google to login, have you ever wondered how much of your information from facebook can be accessible by these services? This information could be really sensitive like: Your friend's list, your groups, your posts, birthday, interested in..so on and so forth.
 
-# [](#about)About
 
-Smartphones and apps that run on them are becoming increasingly prevalent. There is a growing need for software-quality tools in all stages of an app's life-cycle, including development, testing, auditing, and deployment. This project investigates algorithms and systems for effectively analyzing smartphone apps.
+# [](#problem)Problem
+To get a sense of it, login to your facebook, go to `Settings` -> `Apps and websites'.
+Here you can see all the *Active* apps that are using facebook to access your information:
 
-Dynodroid is a system for automatically generating relevant inputs to Android apps. It is capable of generating both UI inputs (e.g., touchscreen taps and gestures) and system inputs (e.g., simulating incoming SMS messages). It also allows interleaving inputs from machine and human.
+<img src="/assets/images/allapps.png" 
+			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
+			
+You can click on the `View and edit` button to see the exact information, the corresponding web service is accessing, for Instance,
 
-<iframe title="Dynodroid Demo" class="youtube-player" type="text/html" 
-			src="//www.youtube.com/embed/5LSrWRhz0Do?rel=0&amp;wmode=opaque" frameborder="0" 
-			allowfullscreen="true" width="480" height="270">
-</iframe>
-		
+<img src="/assets/images/spotifyperm.jpg" 
+			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
-# [](#papers)Papers
+Here, Spotify can access friends list, date of birth, email address, home town.
+I don't know why Spotify needs my home town or date of birth or friends list? 
 
-*   [Dynodroid: An Input Generation System for Android Apps](./assets/files/fse13.pdf)
-     Aravind Machiry, Rohan Tahiliani, Mayur Naik.     
-     FSE'13: ACM Symposium on Foundations of Software Engineering.     
-    **Distinguished Artifact Award** 
-    
-    [Source Code](https://github.com/dynodroid/dynodroid)
+Note that, you can disable these permissions. Actually, my Spotify works fine when I disabled all the permissions. This could be annoying if you have a lot of apps and you don't know which information is needed for the service to work.
 
-*   [Automated Concolic Testing of Smartphone Apps](./assets/files/fse12.pdf)
-     Saswat Anand, Mayur Naik, Hongseok Yang, Mary Jean Harrold.     
-     FSE'12: ACM Symposium on Foundations of Software Engineering.
-     
-    [Source Code](https://code.google.com/p/acteve/source/checkout), [Slides](./assets/files/fse12_talk.pptx), [Full-Version](./assets/files/fse12_full.pdf)
+# [](#solution)Solution
 
-# [](#softwareanddata)Software and Data
+This could be annoying if you have a lot of apps and you don't know which information is needed for the service to work. To make it easy, we created a small Chrome and Firefox extension. This extension helps you to selectively prevent one or more app to access your private information:
 
-*   [Dynodroid source code and VHD](https://github.com/dynodroid/dynodroid)
-*   [Dynodroid evaluation data](./Dynodroid Evaluation Data_.html) (FSE'13)
-*   [Acteve source code](https://code.google.com/p/acteve/source/checkout)
+You can find all the instructions here.
+
+We are also conducting a study to understand the extent of this problem. For which, out extension anonymously collects your app names and private information requested by each app *without any of your information*. We even hash your user id to make sure that there is no way to identify you.
+For instance, for the above spotify app, our extension will collect the following information:
+```
+Spotify, Friends list, Date of birth, Home town, email address
+```
+That's it, it just collects the name of the app and corresponding private information.
 
 # [](#people)People
 
-*   [Saswat Anand](http://cs.stanford.edu/people/saswat/)
+*   [Francesco Marcantoni](https://seclab.cs.ucsb.edu/academic/people/)
 *   [Aravind Machiry](https://machiry.github.io/)
-*   [Mayur Naik](http://www.cis.upenn.edu/~mhnaik/naik)
-*   [Rohan Tahiliani](https://br.linkedin.com/in/rohan-tahiliani-26753537)
-*   [Hongseok Yang](http://www.comlab.ox.ac.uk/people/hongseok.yang/Public/Home.html)
-
-# [](#questions)Questions
-For questions about Dynodroid, send email to dynodroid{at}googlegroups.com or <a href="http://groups.google.com/group/dynodroid/">browse the archives</a>. Posting does not require membership but posts by non-members may be moderated to avoid spamming group members.
-
-
-
-# [](#acks)Acknowledgments
-
-This research is funded in part by DARPA (contract #FA8750-12-2-0020), NSF (award #1253867), and gifts from Google and Microsoft.
+*   [Hojjat Aghakhani](http://hojjat.me/)
