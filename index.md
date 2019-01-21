@@ -16,7 +16,7 @@ Here you can see all the *Active* apps that are using facebook to access your in
 			
 You can click on the `View and edit` button to see the exact information, the corresponding web service is accessing, for Instance,
 
-<img src="/assets/images/spotifyperm.jpg" 
+<img src="/assets/images/spotifyperm.jpeg" 
 			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
 Here, Spotify can access friends list, date of birth, email address, home town.
@@ -27,6 +27,9 @@ Note that, you can disable these permissions. Actually, my Spotify works fine wh
 # [](#solution)Solution
 
 This could be annoying if you have a lot of apps and you don't know which information is needed for the service to work. To make it easy, we created a small Chrome and Firefox extension. This extension helps you to selectively prevent one or more app to access your private information:
+
+<img src="/assets/images/facebookblock.png" 
+			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
 You can find all the instructions here.
 
