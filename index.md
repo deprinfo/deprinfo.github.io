@@ -31,7 +31,7 @@ This could be annoying if you have a lot of apps and you don't know which inform
 <img src="/assets/images/facebookblock.png" 
 			class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
-You can find all the instructions here.
+You can find all the instructions [here](/usage.md).
 
 We are also conducting a study to understand the extent of this problem. For which, out extension anonymously collects your app names and private information requested by each app *without any of your information*. We even hash your user id to make sure that there is no way to identify you.
 For instance, for the above spotify app, our extension will collect the following information:
