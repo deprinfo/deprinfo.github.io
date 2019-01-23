@@ -31,5 +31,5 @@ Please follow the below instructions according to the browser on which you wish 
             
    This shows all the web services and apps that use your facebook to login. It also shows the information, and each web service can access. 
    
-   You can *deny* private information to each app by clicking on the stop icon near the app, or you can *deny* private information to all the apps by clicking the "Block Access to Private Information" at the bottom.
+   You can _deny_ private information to each app by clicking on the stop icon near the app, or you can _deny_ private information to all the apps by clicking the "Block Access to Private Information" at the bottom.
  
