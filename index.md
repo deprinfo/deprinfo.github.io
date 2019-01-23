@@ -33,7 +33,7 @@ This could be annoying if you have a lot of apps and you don't know which inform
 
 You can find all the instructions [here](/usage.md).
 
-We are also conducting a study to understand the extent of this problem. For which, out extension anonymously collects your app names and private information requested by each app *without any of your information*. We even hash your user id to make sure that there is no way to identify you.
+We are also conducting a study to understand the extent of this problem. For which, our extension anonymously collects your app names and private information requested by each app *without any of your information*. We even hash your user id to make sure that there is no way to identify you.
 For instance, for the above spotify app, our extension will collect the following information:
 ```
 Spotify, Friends list, Date of birth, Home town, email address
