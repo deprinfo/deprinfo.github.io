@@ -25,6 +25,11 @@ Please follow the below instructions according to the browser on which you wish 
  1. login to facebook from the browser.
  2. Click on the extension icon on the right: <img src="/assets/images/16.png" 
             class='hidden-xs hidden-sm'/>
+            
+   For the first time, the extension will take some time to fetch all the apps and the permissions they require. Please wait for 30-45 seconds.
+   <img src="/assets/images/waiting.png" 
+            class='hidden-xs hidden-sm' style='vertical-align: center; ' />
+            
  3. You can see the below screen on the right:
         <img src="/assets/images/screenshot.png" 
             class='hidden-xs hidden-sm' style='vertical-align: center; ' />
