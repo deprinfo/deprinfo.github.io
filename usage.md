@@ -30,8 +30,7 @@ Please follow the below instructions according to the browser on which you wish 
             class='hidden-xs hidden-sm' style='vertical-align: center; ' />
             
    Once the loading is done, you can see the below screen on the right:
-   
-     <img src="/assets/images/screenshot.png" 
+   <img src="/assets/images/screenshot.png" 
             class='hidden-xs hidden-sm' style='vertical-align: center; ' />
             
    This shows all the web services and apps that use your facebook to login. It also shows the information, and each web service can access. 
