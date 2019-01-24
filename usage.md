@@ -5,7 +5,7 @@ layout: default
 Please follow the below instructions according to the browser on which you wish to install our extension.
 
 ## [](#gchrome)Google Chrome
- 1. Download the ZIP file from [here]()
+ 1. Download the ZIP file from [here](https://drive.google.com/open?id=1CePJK2i78wcwXxqVCRS242DxrGoYqP37)
  2. Locate the ZIP file and unzip it
  3. Open Chrome and type `chrome://extensions` in the address bar and press enter or click "Tools" -> "Extensions"
  4. Enable "Developer mode" on the top right of the page
@@ -15,7 +15,7 @@ Please follow the below instructions according to the browser on which you wish 
 
 
 ## [](#firefox)Firefox
- 1. Download the ZIP file from [here]()
+ 1. Download the ZIP file from [here](https://drive.google.com/open?id=1CePJK2i78wcwXxqVCRS242DxrGoYqP37)
  2. Locate the ZIP file and unzip it
  3. Open Firefox and type `about:debugging` in the address bar and press enter.
  4. Click on "Load Temporary Add-on..." button
