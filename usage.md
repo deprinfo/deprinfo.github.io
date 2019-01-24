@@ -26,12 +26,12 @@ Please follow the below instructions according to the browser on which you wish 
  2. Click on the extension icon on the right: <img src="/assets/images/16.png" 
             class='hidden-xs hidden-sm'/>. For the first time, the extension will take some time to fetch all the apps and the permissions they require. Please wait for 30-45 seconds.
    
-        <img src="/assets/images/waiting.png" 
+     <img src="/assets/images/waiting.png" 
             class='hidden-xs hidden-sm' style='vertical-align: center; ' />
             
    Once the loading is done, you can see the below screen on the right:
    
-        <img src="/assets/images/screenshot.png" 
+     <img src="/assets/images/screenshot.png" 
             class='hidden-xs hidden-sm' style='vertical-align: center; ' />
             
    This shows all the web services and apps that use your facebook to login. It also shows the information, and each web service can access. 
