@@ -5,21 +5,14 @@ layout: default
 Please follow the below instructions according to the browser on which you wish to install our extension.
 
 ## [](#gchrome)Google Chrome
- 1. Download the ZIP file from [here](https://drive.google.com/open?id=1rUS2uO0oBO1fwLmu44A-p_6vnd8Gfp7Z)
- 2. Locate the ZIP file and unzip it
- 3. Open Chrome and type `chrome://extensions` in the address bar and press enter or click "Tools" -> "Extensions"
- 4. Enable "Developer mode" on the top right of the page
- 5. Click "Load unpacked" button on the top left of the page
- 6. Navigate to the previously unzipped folder and select it
+ 1. Open your browser, and click [here](https://chrome.google.com/webstore/detail/deprinfo/giofcecoogamkiogimailkdephhkabfd)
+ 2. Click on "Add to Chrome"
 
 
 
 ## [](#firefox)Firefox
- 1. Download the ZIP file from [here](https://drive.google.com/open?id=1rUS2uO0oBO1fwLmu44A-p_6vnd8Gfp7Z)
- 2. Locate the ZIP file and unzip it
- 3. Open Firefox and type `about:debugging` in the address bar and press enter.
- 4. Click on "Load Temporary Add-on..." button
- 5. Locate "manifest.json" file in the previously unzipped folder and select it
+ 1. Open your browser, and click [here](https://addons.mozilla.org/firefox/addon/deprinfo/)
+ 2. Click on "Add to Firefox"
 
 # [](#usage)Usage
  1. login to facebook from the browser.
