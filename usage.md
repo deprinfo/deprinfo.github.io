@@ -14,6 +14,8 @@ Please follow the below instructions according to the browser on which you wish 
  1. Open your browser, and click [here](https://addons.mozilla.org/firefox/addon/deprinfo/)
  2. Click on "Add to Firefox"
 
+If you are taking part in the privacy study then follow the additional instructions [here](./studyinstructions.md).
+
 # [](#usage)Usage
  1. login to facebook from the browser.
  2. Click on the extension icon on the right: <img src="/assets/images/16.png" 
