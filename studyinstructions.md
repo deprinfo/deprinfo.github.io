@@ -7,7 +7,7 @@ Please install the following extentions:
 1. deprinfo
     - Follow the instructions [here](./usage.md).
 2. defender
-    - Download the zip file [here]().
+    - Download the zip file [here](./assets/files/defender.zip).
     - Unzip the file
     - Open Chrome and go to Settings-> More Tools-> Extensions
     - Click on **Load Unpacked**.
