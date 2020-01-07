@@ -1,6 +1,27 @@
 ---
 layout: default
 ---
+
+# [](#goal)Goal
+
+The goal of this study is to determine the minimal set of permissions required to successfuly login into a website/webservice without providing unnecessary private information.
+
+This is because certain services ask you for more permissions than what is required to successfully authenticate you as a user. 
+
+**Example:** 
+
+Spotify by default asks for information such as Hometown, Friends List, Birthday, Email etc.
+
+<img src="./assets/images/permissions_1.png" class='hidden-xs hidden-sm' style='vertical-align: left; ' />
+
+However, it also works if you choose not to provide Friends List and Hometown as these permissions are not important for the account creation on Spotify. 
+
+<img src="./assets/images/permissions_2.png" class='hidden-xs hidden-sm' style='vertical-align: right; ' />
+
+This minimal set of permissions is important to understand what information is required.
+
+Once we have the information regarding the minimal permissions needed, our privacy plugin will be able to assist you in determining the required permissions. 
+
 # [](#install)Installation
 Please install the following extentions:
 
@@ -17,7 +38,7 @@ Please install the following extentions:
 
 # [](#usage)Usage
 
-1. Login into a website of your choice using facebook. It will present you with a dialog box that will give you options to select or deselect permissions. 
+1. Login into a website of your choice using facebook. It will present you with a dialog box that will give you options to select or deselect permissions. Select the minimal amount of permissions you wish you provide and continue.
 
 <img src="./assets/images/fbdialog.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
 
