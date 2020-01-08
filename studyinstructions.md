@@ -40,15 +40,15 @@ Please install the following extentions:
 
 1. Login into a website of your choice using facebook. It will present you with a dialog box that will give you options to select or deselect permissions. Select the minimal amount of permissions you wish you provide and continue.
 
-<img src="./assets/images/fbdialog.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
+    <img src="./assets/images/fbdialog.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
 
 2. Once you are logged in, click on the defender plugin and it will show you the name of the website you logged in into and ask you if it worked or not. 
 
-<img src="./assets/images/defender.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
+    <img src="./assets/images/defender.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
 
 3. Click on **Working** if you were successfully able to login with the permissions you selected on facebook login dialog box. Else click on **Report Failure**. You also have a choice to submit a additional (optional) comment with your submission. 
 
-<img src="./assets/images/defendersubmit.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
+    <img src="./assets/images/defendersubmit.png" class='hidden-xs hidden-sm' style='vertical-align: center; '>
 
 This study will help us determine what permissions are working for what websites along with the usefulness of the plugin. 
 
