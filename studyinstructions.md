@@ -12,11 +12,11 @@ This is because certain services ask you for more permissions than what is requi
 
 Spotify by default asks for information such as Hometown, Friends List, Birthday, Email etc.
 
-<img src="./assets/images/permissions_1.png" class='hidden-xs hidden-sm' style='vertical-align: left; ' />
+<img src="./assets/images/permissions_1.png" class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
 However, it also works if you choose not to provide Friends List and Hometown as these permissions are not important for the account creation on Spotify. 
 
-<img src="./assets/images/permissions_2.png" class='hidden-xs hidden-sm' style='vertical-align: right; ' />
+<img src="./assets/images/permissions_2.png" class='hidden-xs hidden-sm' style='vertical-align: center; ' />
 
 This minimal set of permissions is important to understand what information is required.
 
