@@ -7,6 +7,9 @@ It is quite common nowadays to see a website asking you to create an account to 
 Similar to us, If you also use facebook or google to login, have you ever wondered how much of your information from facebook can be accessible by these services? This information could be really sensitive like: Your friend's list, your groups, your posts, birthday, interested in..so on and so forth.
 
 
+This project has been closed. Please visit the [this](./final.md) to read about final notes. 
+
+
 # [](#problem)Problem
 To get a sense of it, login to your facebook, go to `Settings` -> `Apps and websites'.
 Here you can see all the *Active* apps that are using facebook to access your information:
