@@ -6,8 +6,9 @@ It is quite common nowadays to see a website asking you to create an account to 
 
 Similar to us, If you also use facebook or google to login, have you ever wondered how much of your information from facebook can be accessible by these services? This information could be really sensitive like: Your friend's list, your groups, your posts, birthday, interested in..so on and so forth.
 
-
+<b>
 This project has been closed. Please visit the [this](./final.md) to read about final notes. 
+</b>
 
 
 # [](#problem)Problem
